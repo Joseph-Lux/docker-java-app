@@ -1,0 +1,18 @@
+{
+    "AWSEBDockerrunVersion": 2,
+    "containerDefinitions": [
+      {
+        "name": "my-spring-boot-app",
+        "image": "josephlux/docker-java-app:latest",
+        "essential": true,
+        "memory": 512,
+        "portMappings": [
+          {
+            "containerPort": 8080,
+            "hostPort": 8080
+          }
+        ]
+      }
+    ]
+  }
+  
