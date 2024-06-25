@@ -1,2 +1,6 @@
+lux_dev/demo/UserRepository.class
+lux_dev/demo/ResourceNotFoundException.class
+lux_dev/demo/User.class
+lux_dev/demo/UserController.class
 lux_dev/demo/HelloController.class
 lux_dev/demo/DemoApplication.class
